@@ -1,3 +1,3 @@
-* Source for http://reconstrue.com
+# Source for http://reconstrue.com
 
-<img src='static/reconstrue_brandmark.png' />
+<img src='static/reconstrue_combo_mark.svg' />
