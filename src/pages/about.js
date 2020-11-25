@@ -10,22 +10,26 @@ const AboutPage = () => (
   <Layout>
     <div>
       <h1>The Reconstrue Project</h1>
-  
+      
       <p>
         The Reconstrue Project produces open source tools for neuroscience,
         all of which is liberally licensed in a commercially friendly manner. 
-    </p>
-    <p>
-    There is a single goal driving all of the software developemnt:
+      </p>
+      <p>
+        There is a single goal driving all of the software developemnt:
         search for evidence of <a href='http://williamcalvin.com/bk9/'>Calvin's Darwin Machine Theory</a>, 
         but the tools are designed to be repurposable
-        for other neuroscience projects.
+        for other neuroscience projects. DMT caused the initiation of this project and also provides the
+        forcing function for committing to software development: if coding something up doesn't move
+        towards proving DMT, it's not part of Reconstrue.
+
+        DTM is so core to this project that even the logo is a visual reference to the theory.
       </p>
-  
+      
       <p>
         All three blend (<b>TODO:</b> maybe a venn diagram?)
       </p>
-    
+      
       <p>
         Neuroscience
         <ul>
@@ -33,7 +37,7 @@ const AboutPage = () => (
           <li>Functional pattern recognition</li>
         </ul>
       </p>
-    
+      
       <p>
         Computer Science
         <ul>
@@ -70,11 +74,11 @@ const AboutPage = () => (
           That is, specific
           neuroscietific open questions drive which the tool development and those
           tools are then applied to open experimental data.
-  
-        
+          
+          
           about producing software (the development part) and secondarily using those tools to do
           neuroscientific research, alone and in collaboration with scientists. Reconstrue does not have
-            
+          
           is about open source development and research
           for neuroscience.  
         </p>
@@ -97,12 +101,12 @@ const AboutPage = () => (
         community towards open data and open source code and there is a novel
         situation where software developer can dabble with massive amounts of
         raw data.      
-      </p> 
-      <p>
-        To riff off an old meme: "may not be a neuroscientist PhD but play one on the interwebz." 
-        <a href='https://en.wikipedia.org/wiki/On_the_Internet,_nobody_knows_you%27re_a_dog'>not a dog</a>
-      </p>
-  
+        </p> 
+        <p>
+          To riff off an old meme: "may not be a neuroscientist PhD but play one on the interwebz." 
+          <a href='https://en.wikipedia.org/wiki/On_the_Internet,_nobody_knows_you%27re_a_dog'>not a dog</a>
+        </p>
+      
     </div>
   </Layout>
 );
