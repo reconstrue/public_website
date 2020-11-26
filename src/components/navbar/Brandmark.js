@@ -1,6 +1,18 @@
+// Via https://snopkowski.com/blog/gatsby-navigation-styled-components
 import React from "react";
+import styled from "styled-components";
 import Img from "gatsby-image";
-import { useStaticQuery, graphql } from "gatsby";
+import {Link, useStaticQuery, graphql} from "gatsby";
+
+
+const LogoWrap = styled.div`
+  margin: auto 0;
+  flex: 0 1 36px;
+
+  @media (max-width: 768px) and (orientation: landscape) {
+    flex: 0 1 25px;
+  }
+`;
 
 const Brandmark = () => {
   const data = useStaticQuery(graphql`query {
@@ -14,7 +26,9 @@ const Brandmark = () => {
     }
   `)
   return (
+    <LogoWrap as={Link} to="/">
       <Img fluid={data.file.childImageSharp.fluid} alt="logo" />
+    </LogoWrap>
   )
 }
 
