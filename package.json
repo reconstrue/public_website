@@ -18,7 +18,7 @@
     "fontsource-roboto": "^3.0.3",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.6.0",
-    "gatsby-plugin-sharp": "^2.9.0",
+    "gatsby-plugin-sharp": "^4.25.1",
     "gatsby-plugin-styled-components": "^3.5.0",
     "gatsby-source-filesystem": "^2.6.1",
     "gatsby-transformer-sharp": "^2.7.0",
